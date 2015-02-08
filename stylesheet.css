@@ -1,0 +1,66 @@
+﻿body {
+    /*color: #575757;*/
+    font-family: 'Open sans', serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #aaa;
+    color: black;
+   
+}
+
+.jumbotron {
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+#submit2 {
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+#close {
+    margin-top: 13px;
+}
+
+#name {
+    color: black;
+}
+
+#message {
+    color: black;
+}
+
+#userInput {
+    float: right;
+    margin-left: 160px;
+}
+
+#displyMsg {
+    float: left;
+    margin-top: -150px;
+    padding-top: 20px;
+}
+
+h2 {
+    background-color: red;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.tron {
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: 'Open sans', serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+
+
+
+ /*background-color: #3e4f63;*/
+    /*background: -moz-radial-gradient(center 45deg, circle closest-corner, #2f3b4b 0%, #3e4f63 100%);
+    /*background: -webkit-gradient(radial, center center, 10, center center, 900, from(#2f3b4b), to(#3e4f63));*/

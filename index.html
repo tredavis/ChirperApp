@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Roster App!</title>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="jumbotron">
+                    <h1>
+                        Chirp!
+                    </h1>
+                    <p>
+                        When everyone else around you is sick of hearing your useless stories...
+                        <div id="clockbox"></div>
+                        <a href="#" class="paulund_modal">You can also post by clicking here...</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-6 column" id="userInput">
+                <input type="text" placeholder="Name" id="name" /><br />
+                <input type="text" placeholder="Message" id="message" /><br />
+
+
+                <button id="postBtn" class="btn btn-info" onclick="postAjax();"> POST</button>
+                <button id="getBtn" class="btn btn-success" onclick="getAjax();">DISPLAY</button>
+
+
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-6 column" id="displyMsg">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Message
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="outputTable"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="tron">
+                    <h1>Create User</h1>
+
+                    <input type="text" id="firstName" placeholder="First Name" />
+                    <input type="text" id="lastName" placeholder="First Name" />
+                    <input type="text" id="screenName" placeholder="Screen Name" />
+                    <button id="createuserBtn" class="btn btn-info" onclick="postUser();"> Add User <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+                    <script>
+                        $(document).ready(function () {
+                            $('.paulund_modal').paulund_modal_box();
+                        });
+                    </script>
+
+
+
+                    <script src="Scripts/jquery-2.1.3.js"></script>
+                    <script src="Scripts/bootstrap.js"></script>
+                    <script src="jquery.js"></script>
+                    <script src="script.js"></script>
+</body>
+</html>
